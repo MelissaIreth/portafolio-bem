@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+/*Estilos de cada seccion*/
+.a-menu {
+  display: inline-block;
+  width: 100%;
+  background-color: #f04949; }
+
+.a-menu__item {
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 700;
+  padding: 25px;
+  color: white; }
+
+.a-menu__item__link {
+  color: #efefef;
+  text-decoration: none;
+  padding: 10px 15px; }
+  .a-menu__item__link:hover {
+    background-color: #203748;
+    text-decoration: none;
+    border-radius: 100px; }
+
+.a-menu__item__img {
+  width: 12%;
+  margin: -25px;
+  margin-left: 200px;
+  margin-right: -320px;
+  background-color: #203748;
+  border-radius: 100%;
+  padding: 7px; }
+
+.article {
+  width: 50%;
+  display: table-cell;
+  margin: 0; }
+
+.article--circle {
+  background-color: #efefef;
+  color: #203748;
+  border-radius: 150px;
+  width: 19%;
+  padding: 70px;
+  margin-top: 20px;
+  margin-left: 270px;
+  text-align: center; }
+  .article--circle__title {
+    font-size: 40px; }
+
+.profile {
+  margin-left: -60px; }
+  .profile__title {
+    color: #39d084;
+    font-size: 3em; }
+  .profile__title--second {
+    margin-top: -35px;
+    color: #efefef; }
+  .profile__desc {
+    color: #efefef;
+    text-align: justify;
+    padding-right: 280px; }
+  .profile__button {
+    background-color: #39d084;
+    color: #efefef;
+    border-radius: 30px;
+    padding: 10px 60px;
+    border: none;
+    font-weight: bolder;
+    font-size: 1.5em; }
+    .profile__button:hover {
+      background-color: #efefef;
+      color: #39d084; }
+
+.social {
+  display: inline-block;
+  width: 100%;
+  padding-left: 360px;
+  padding-top: 20px; }
+  .social__item {
+    display: inline-block;
+    padding: 10px;
+    font-size: 2em; }
+    .social__item__link {
+      text-decoration: none;
+      color: #efefef; }
+    .social__item .fa {
+      text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.56); }
+      .social__item .fa:hover {
+        text-shadow: none; }
+    .social__item .fa-facebook {
+      background-color: #436197;
+      padding: 10px 20px; }
+    .social__item .fa-twitter {
+      background-color: #3aa4d2;
+      padding: 10px 15px; }
+    .social__item .fa-google-plus {
+      background-color: #c2564b;
+      padding: 10px; }
+    .social__item .fa-pinterest-p {
+      background-color: #ba323b;
+      padding: 10px 20px; }
+    .social__item .fa-stumbleupon {
+      background-color: #d25535;
+      padding: 10px 15px; }
+    .social__item .fa-dribbble {
+      background-color: #cc5c8b;
+      padding: 10px 15px; }
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #203748; }
+
+nav {
+  margin: -16px; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,127 @@
+/*Estilos de cada seccion*/
+.a-menu{
+	display: inline-block;
+	width: 100%;
+	background-color: $red;
+}
+
+.a-menu__item{
+	display: inline-block;
+	font-size: 17px;
+	font-weight: 700;
+	padding: 25px;
+	color: white;
+}
+
+.a-menu__item__link{
+	color: $whitesmoke;
+	text-decoration: none;
+	padding: 10px 15px;
+	&:hover{
+		background-color: $blue;
+		text-decoration: none;
+		border-radius: 100px;
+	}
+}
+.a-menu__item__img{
+	width: 12%;
+	margin: -25px;
+	margin-left: 200px;
+	margin-right: -320px;
+	background-color: $blue;
+	border-radius: 100%;
+	padding: 7px;
+}
+.article{
+	width: 50%;
+	display: table-cell;
+	margin: 0;
+}
+.article--circle{
+	background-color: $whitesmoke;
+	color: $blue;
+	border-radius: 150px;
+	width: 19%;
+	padding: 70px;
+	margin-top: 20px;
+	margin-left: 270px;
+	text-align: center;
+	&__title{
+		font-size: 40px;
+	}
+}
+.profile{
+	margin-left: -60px;
+	&__title{
+		color: $green;
+		font-size: 3em;
+	}
+	&__title--second{
+		margin-top: -35px;
+		color: $whitesmoke;
+	}
+	&__desc{
+		color: $whitesmoke;
+		text-align: justify;
+		padding-right: 280px;
+	}
+	&__button{
+		background-color: $green;
+		color: $whitesmoke;
+		border-radius: 30px;
+		padding: 10px 60px;
+		border: none;
+		font-weight: bolder;
+		font-size: 1.5em;
+		&:hover{
+			background-color: $whitesmoke;
+			color: $green;
+		}
+	}
+}
+
+.social{
+	display: inline-block;
+	width: 100%;
+	padding-left: 360px;
+	padding-top: 20px;
+	&__item{
+		display: inline-block;
+		padding: 10px;
+		font-size: 2em;
+		&__link{
+			text-decoration: none;
+			color: $whitesmoke;
+		}
+		.fa{
+			text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.56);
+			&:hover{
+				text-shadow: none;
+			}
+		}
+		.fa-facebook{
+			background-color: $c-f;
+			padding: 10px 20px;
+		}
+		.fa-twitter{
+			background-color: $c-t;
+			padding: 10px 15px;
+		}
+		.fa-google-plus{
+			background-color: $c-g;
+			padding: 10px;
+		}
+		.fa-pinterest-p{
+			background-color: $c-p;
+			padding: 10px 20px;
+		}
+		.fa-stumbleupon{
+			background-color: $c-s;
+			padding: 10px 15px;
+		}
+		.fa-dribbble{
+			background-color: $c-d;
+			padding: 10px 15px;
+		}
+	}
+}
